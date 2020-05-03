@@ -1,16 +1,11 @@
-# adventure_time_quote_generator
+# Adventure Time Quote Generator
 
-A new Flutter project.
+An app that generates random quotes from the TV show 'Adventure Time' when the big red button is pressed.
+It's sole purpose was to allow me to practice Clean Architecture and TDD.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run the app
+### iOS / Android
+```
+cd <directory_of_this_project>
+flutter run
+```
