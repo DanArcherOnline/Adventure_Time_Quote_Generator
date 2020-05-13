@@ -94,7 +94,7 @@ class BmoBody extends StatelessWidget {
                         child: this.greenOvalButton ?? Container(),
                       ),
                       top: 117.0,
-                      left: 120.0,
+                      left: 110.0,
                     ),
                     Positioned(
                       child: Container(
