@@ -5,7 +5,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../colors.dart';
 import '../images.dart';
-import 'inner_shadow.dart';
 import 'loading_widget.dart';
 import 'message_display.dart';
 
@@ -18,6 +17,7 @@ class BmoScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 250.0,
+      width: double.infinity,
       decoration: BoxDecoration(
         color: BmoColors.SCREEN,
         borderRadius: BorderRadius.all(
